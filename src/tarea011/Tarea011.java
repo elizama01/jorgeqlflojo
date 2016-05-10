@@ -28,7 +28,7 @@ public class Tarea011 {
       
        int i=1;
          
-      do{ 
+      while(z>0){
              System.out.println("Ingrese entero n°" +i);  
            int c=entrada.nextInt();
             
@@ -45,9 +45,9 @@ public class Tarea011 {
                 
             }
             z=-1;
-            i=i+1; 
+            i++; 
        
-        }while(z>0);
+        }
           
             
         
