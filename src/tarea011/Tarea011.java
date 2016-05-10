@@ -27,10 +27,12 @@ public class Tarea011 {
        int z=b;
       
        int i=1;
-        do { 
-            System.out.println("Ingrese entero n°" +i);  
-        int c=entrada.nextInt();
-            if (z==b) {
+         
+      do{ 
+             System.out.println("Ingrese entero n°" +i);  
+           int c=entrada.nextInt();
+            
+        if (z==b) {
                 m=c;
                 n=c;
             }else{
@@ -43,9 +45,12 @@ public class Tarea011 {
                 
             }
             z=-1;
-            i=i+1;
+            i=i+1; 
+       
+        }while(z>0);
+          
             
-        } while (z>0);
+        
         System.out.println(" M=" + m);
         System.out.println("N="+n);
            
