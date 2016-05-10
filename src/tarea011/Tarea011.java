@@ -26,7 +26,8 @@ public class Tarea011 {
    
        int z=b;
        int i=1;
-        do { System.out.println("Ingrese entero n°1"+ i++);  
+        do { 
+            System.out.println("Ingrese entero n°" +i);  
         int c=entrada.nextInt();
             if (z==b) {
                 m=c;
